@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>You've approached another stop sign.</Say>
+    <Gather input="speech dtmf" hints="left" timeout="5" numDigits="1">
+        <Say>Please press 1 or say left to go left.</Say>
+    </Gather>
+    <Gather input="speech dtmf" hints="right" timeout="5" numDigits="2">
+        <Say>Please press 2 or say right to go left.</Say>
+    </Gather>
+    <Gather input="speech dtmf" hints="stop" timeout="5" numDigits="3">
+        <Say>Please press 3 or say stop to arrive.</Say>
+    </Gather>
+    <Say>The maze never ends, but you do.</Say>
+</Response>
